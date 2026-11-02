@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard Siswa</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+        }
+
+        .header {
+            background: #2563eb;
+            color: white;
+
+            padding: 20px 40px;
+
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+
+            margin: 40px auto;
+        }
+
+        .card {
+            background: white;
+
+            padding: 30px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 4px 15px rgba(0,0,0,0.08);
+
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+
+            padding: 12px 25px;
+
+            background: #2563eb;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 8px;
+        }
+
+        .logout {
+            color: white;
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="header">
+
+        <strong>
+            CAT Informatika
+        </strong>
+
+        <a
+            href="/logout"
+            class="logout"
+        >
+            Logout
+        </a>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="card">
+
+            <h2>
+                Selamat datang,
+                {{ user["nama"] }}
+            </h2>
+
+            <p>
+                Anda login sebagai peserta ujian.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Ujian CAT Informatika
+            </h3>
+
+            <p>
+                Jumlah soal: 10
+            </p>
+
+            <p>
+                Sistem akan memilih soal secara adaptif
+                berdasarkan kemampuan peserta.
+            </p>
+
+
+            <a
+                href="/start"
+                class="button"
+            >
+                Mulai Ujian
+            </a>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

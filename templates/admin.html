@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Admin - CAT Informatika</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+        }
+
+        .header {
+            background: #111827;
+            color: white;
+
+            padding: 20px 40px;
+
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+
+            margin: 40px auto;
+        }
+
+        .card {
+            background: white;
+
+            padding: 30px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 4px 15px rgba(0,0,0,0.08);
+
+            margin-bottom: 20px;
+        }
+
+        .logout {
+            color: white;
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="header">
+
+        <strong>
+            CAT Informatika - ADMIN
+        </strong>
+
+        <a
+            href="/logout"
+            class="logout"
+        >
+            Logout
+        </a>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="card">
+
+            <h2>
+                Dashboard Admin
+            </h2>
+
+            <p>
+                Selamat datang,
+                {{ user["nama"] }}.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Rekap Hasil CAT
+            </h3>
+
+            <p>
+    Lihat hasil dan rekap peserta CAT.
+</p>
+
+<a
+    href="/admin/results"
+    style="
+        display:inline-block;
+        padding:12px 25px;
+        background:#2563eb;
+        color:white;
+        text-decoration:none;
+        border-radius:8px;
+    "
+>
+    Lihat Hasil CAT
+</a>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+id,question,option_a,option_b,option_c,option_d,answer,a,b,c
+1,"Apa kepanjangan dari CPU?","Central Processing Unit","Computer Personal Unit","Central Program Utility","Control Processing User","A",1.0,-1.0,0.0
+2,"Manakah yang merupakan bahasa pemrograman?","HTML","Python","CSS","HTTP","B",1.0,-0.5,0.0
+3,"Apa fungsi utama RAM?","Menyimpan data sementara","Mengolah grafis","Menghubungkan internet","Mencetak dokumen","A",1.0,0.0,0.0
+4,"Apa kepanjangan dari HTML?","Hyper Text Markup Language","High Text Machine Language","Hyperlink Text Management Language","Home Tool Markup Language","A",1.0,0.5,0.0
+5,"Database yang termasuk relational database adalah?","MySQL","MongoDB","Redis","Neo4j","A",1.0,-0.2,0.0
+6,"Algoritma adalah?","Langkah sistematis menyelesaikan masalah","Bahasa pemrograman","Perangkat keras","Sistem operasi","A",1.0,0.2,0.0
+7,"Apa fungsi primary key pada database?","Mengidentifikasi record secara unik","Menghapus tabel","Membuat backup","Menghubungkan komputer","A",1.0,0.7,0.0
+8,"Machine Learning merupakan bagian dari?","Artificial Intelligence","Database","Operating System","Computer Network","A",1.0,1.0,0.0
+9,"Manakah yang termasuk struktur data linear?","Array","Tree","Graph","Neural Network","A",1.0,0.3,0.0
+10,"Apa fungsi utama API?","Menghubungkan dan memungkinkan komunikasi antar aplikasi","Menyimpan file gambar","Mengganti sistem operasi","Membuat hardware","A",1.0,0.8,0.0
